@@ -1,6 +1,7 @@
 {
   "dependencies": ["."],
   "graphs": {
-    "assistant": "./assistant.py:graph"
-  }
+    "assistant": "./assistant_app.py:graph"
+  },
+  "env": ".env"
 }
