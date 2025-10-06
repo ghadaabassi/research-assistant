@@ -7,5 +7,5 @@ load_dotenv()
 llm = ChatOpenAI(
     api_key=os.getenv("DEEPSEEK_API_KEY"),
     base_url=os.getenv("OPENROUTER_BASE_URL"),
-    model_name="x-ai/grok-4-fast:free",
+    model_name="deepseek/deepseek-chat-v3.1:free",
 )
